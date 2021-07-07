@@ -1,0 +1,78 @@
+#intro {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+#container button {
+    margin: 5rem;
+    height: 120px;
+    width: 120px;
+    transition: all .07s ease;
+    border: 0 solid #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container button img {
+    width: 80px;
+    margin: 5px;
+}
+
+#rock:hover {
+    transform: scale(1.1);
+    background-color: rgb(233, 186, 156);
+    box-shadow: 0 0 1em rgb(233, 186, 156);
+}
+
+#paper:hover {
+    transform: scale(1.1);
+    background-color: rgb(94, 212, 241);
+    box-shadow: 0 0 1em rgb(94, 212, 241);
+}
+
+#scissors:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 252, 75);
+    box-shadow: 0 0 1em rgb(255, 252, 75);
+}
+
+#results {
+    display: hidden;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#choices {
+    display: hidden;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#win {
+    background-color: green;
+    box-shadow: 0 0 0.5em green;
+    margin: 5px;
+    padding: 12px;
+}
+
+#lose { 
+    background-color: red;
+    box-shadow: 0 0 0.5em red;
+    margin: 5px;
+    padding: 12px;
+}
+
+#draw { 
+    background-color: rgb(86, 40, 253);
+    box-shadow: 0 0 0.5em rgb(86, 40, 253);
+    margin: 5px;
+    padding: 12px;
+}
